@@ -29,6 +29,8 @@ nav
 .header
 {
   padding: 2rem 6rem;
+  display: flex;
+  gap: 2rem;
 }
 /* Header Text Styles */
 h1
@@ -78,4 +80,35 @@ h1
 .scroll-div img
 {
   width: 25px;
+}
+
+/* Header image */
+.header-image
+{
+  position: relative;
+}
+.floating
+{
+  position: absolute;
+}
+.header-img
+{
+  width: 80%;
+}
+.float1
+{
+  top: 8rem;
+  width: 100px;
+}
+.float2
+{
+  right: 0;
+  top: 14rem;
+  width: 150px;
+}
+.float3
+{
+  bottom: 1rem;
+  left: 0;
+  width: 120px;
 }
