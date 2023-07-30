@@ -9,7 +9,7 @@ const AnimatedTextWord = ({ text }) => {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 0.12, delayChildren: 0.04 * i },
+      transition: { staggerChildren: 0.17, delayChildren: 0.10 * i },
     }),
   };
 
@@ -21,8 +21,8 @@ const AnimatedTextWord = ({ text }) => {
       x: 0,
       transition: {
         type: "spring",
-        damping: 12,
-        stiffness: 100,
+        damping: 5,
+        stiffness: 200,
       },
     },
     hidden: {
@@ -43,6 +43,7 @@ const AnimatedTextWord = ({ text }) => {
       initial="hidden"
       animate="visible"
     >
+    <h1>
       {words.map((word, index) => (
         <motion.span
           variants={child}
@@ -52,6 +53,7 @@ const AnimatedTextWord = ({ text }) => {
           {word}
         </motion.span>
       ))}
+    </h1>
     </motion.div>
   );
 };

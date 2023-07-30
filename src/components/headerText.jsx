@@ -1,11 +1,11 @@
-
+import AnimatedTextWord from "./AnimatedTitle"
 function HeaderText()
 {
     return (
         <div className="header-text">
-            <h1>
-                Engage Your Audience In Minute
-            </h1>
+            <AnimatedTextWord text="Engae Your" />
+            <AnimatedTextWord text=" Audience In" />
+            <AnimatedTextWord text="Minute"/>
             <p>
                 Powerful digital marketing tool for companies of all categories
             </p>
