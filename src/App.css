@@ -1,0 +1,81 @@
+.App
+{
+  width: 70%;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  padding-block: 1rem;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+}
+.navbar-brand img
+{
+  width: 180px;
+}
+.navbar-items
+{
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* Header styles */
+.header
+{
+  padding: 2rem 6rem;
+}
+/* Header Text Styles */
+h1
+{
+  font-size: 50px;
+  width: 30vw;
+}
+.header-text p
+{
+  padding-block:1rem;
+  font-weight: 500;
+  width: 20vw;
+  line-height: 1.6;
+}
+.button-area
+{
+  padding: 1rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.get-started-btn
+{
+  padding: .75rem 2rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #127467;
+  border-radius: 30px;
+  border:none;
+}
+.try-btn
+{
+  text-decoration: underline;
+  font-weight: 600;
+}
+.scroll-div
+{
+  display: flex;
+  gap: 1rem ;
+}
+.scroll-div p
+{
+  width: fit-content;
+  font-weight: 500;
+}
+.scroll-div img
+{
+  width: 25px;
+}
